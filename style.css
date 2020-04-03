@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url("assets/wedding-landing-background.png");
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #444349;
+}
+
+/* Headline styling */
+
+.cover {
+  background-image: url(assets/wedding-landing-cover.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  color: hsla(0,0%,100%,.7);
+  text-align: center;
+  display: table;
+}
+
+footer .wrapper {
+  padding: 2rem 2rem;
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 1rem;
+}
+
+
+
+.byline {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.headline {
+  font-size: 6rem;
+  margin: 2rem 0;
+    font-family: Great Vibes, sans-serif;
+    color: #d2ba87;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 1224px) {
+  .headline {
+    font-size: 6rem;
+  }
+}
+.date {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: Libre Baskerville, sans-serif;
+  }
+}
+
+.s-program {
+    background-color: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+}
+
+.s-qa, .s-program {
+    background-color: hsla(100,0%,0%,.6);
+    color: #d2ba87;
+    margin: 1.5rem auto;
+    padding: 1.5rem 1rem;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #606060;
+    color: #d2ba87;
+    height: 5rem;
+    width: 100vw;
+    text-align: center;
+}
+
+
+
+.wrapper a {
+    color: #bd806e;
+}
+
+footer .wrapper a:hover {
+    color: #eda087;
+}
+
+header .wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-wrapper {
+    background: hsla(100,0%,0%,.5);
+    padding: .625rem;
+    margin: 0 auto;
+}
+
+.byline {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: .15rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+    font-family: Libre Baskerville, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.header {
+    font-family: Great Vibes, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.slocation {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem
+}
+
+.s-gifts {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+}
+
+.s-contact {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+}
+
+img {
+    width: 30%;
+}
+
+
+
+.subheader {
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 1.5rem;
+    font-weight:900;
+    margin: 2rem
+}
+
+.location-text {
+    font-family: Muli, sans-serif;
+    font-size: 1.1rem;
+    margin: .5rem;
+    font-weight: 600;
+}
+
+
+
+.quotation {
+    font-family: Muli, sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
