@@ -126,7 +126,8 @@ header .wrapper {
 .header {
     font-family: Great Vibes, sans-serif;
     font-size: 3rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
 }
 
 .slocation {
@@ -145,6 +146,10 @@ header .wrapper {
     width: 95%;
     margin: 1.5rem auto;
     padding: .5rem 1rem;
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
 }
 
 img {
@@ -174,8 +179,90 @@ img {
     font-style: italic;
     font-size: 1.1rem;
     margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 
 
 
+
+ul {
+    text-align: left;
+}
+
+.program-wrapper {
+    margin: 0 2.6rem;
+}
+
+
+
+.hours {
+    font-family: Muli, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.gifts {
+    font-family: Libre Baskerville, sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 2rem;
+}
+
+.qa {
+    margin: 2rem;
+}
+
+.faq {
+    font-family: Libre Baskerville, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem
+}
+
+.question {
+    font-family: Muli, sans-serif;
+    font-weight: 600;
+    font-size:  1.2rem;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+    text-align: left;
+}
+
+.answer {
+    font-family: Muli, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.qa a {
+    color: #bd806e;
+    text-decoration: none;
+}
+
+.qa a:hover {
+    color: #eda087;
+}
+
+.s-contact a {
+    color: #bd806e;
+    text-decoration: none;
+}
+
+.s-contact a:hover {
+    color: #eda087;
+}
+
+.s-contact p {
+    padding: 1rem;
+}
+
+footer p {
+    font-family: Muli, sans-serif;
+    font-size: .9rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+}
