@@ -127,7 +127,7 @@ header .wrapper {
     font-family: Great Vibes, sans-serif;
     font-size: 3rem;
     margin: 1.5rem 0;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .slocation {
@@ -265,4 +265,52 @@ footer p {
     font-size: .9rem;
     line-height: 1.2rem;
     font-weight: 600;
+}
+
+.date::before, .date::after {
+    display: inline-block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin: .5rem;
+}
+
+
+
+.ceremony::after {
+    content: "";
+    display: block;
+    background-color: #444349;
+    height:.1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+}
+
+.photos::after {
+    content: "";
+    display: block;
+    background-color: #444349;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto
+}
+
+.party::after {
+    content: "";
+    display: block;
+    background-color: #444349;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+}
+
+.qa::after {
+    content: "";
+    display: block;
+    background-color: #d2ba87;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
 }
