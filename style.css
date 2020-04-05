@@ -314,3 +314,121 @@ footer p {
     width: 25vw;
     margin: 1.5rem auto;
 }
+
+@media (min-width: 768px) {
+    .text-wrapper {
+        width: 50%;
+    }
+    
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width:768px) {
+    .ceremony::after {
+        visibility: hidden;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .photos::after {
+        visibility: hidden;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .party::after {
+        visibility: hidden;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .ceremony {
+        display: inline-block;
+        width: 33%;
+        float: left;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .photos {
+        display: inline-block;
+        width:33%;
+        float: left;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .party {
+        display: inline-block;
+        width: 33%;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .program-wrapper {
+        width: 50%;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .quotation {
+        text-align:left;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .s-gifts img {
+        width: 10%;
+        height: auto;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .slocation img {
+        margin-bottom: 1rem;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .qa {
+        display: inline-block;
+        width: 28%;
+        float: left;
+    }
+    
+}
+
+@media (min-width:768px) {
+    .qa::after {
+        visibility: hidden;
+    }       
+    
+}
+
+
+
+@media (min-width: 768px) {
+    .s-qa {
+        display: inline-block;
+    }
+    
+}
